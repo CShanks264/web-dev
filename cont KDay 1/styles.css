@@ -1,0 +1,41 @@
+.nav-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /*margin: auto;*/
+    margin: 35px;
+  }
+  
+  .nav-button {
+    color: gray;
+    background: white;
+    padding: 5px 10px;
+    border: transparent 1px solid;
+  }
+
+  .nav-button:hover{
+    border: lightgray 1px solid;
+    border-radius: 20px;
+  }
+  
+  .img-grid {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin:auto;
+  }
+
+  .imgs {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  /* .imgs:hover {
+    width: 600px;
+   height: auto;
+  }
+  */
