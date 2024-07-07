@@ -1,12 +1,4 @@
-// testing git
-type Car = {
-    price: number
-    make: string
-    model: string
-    year: number
-    color: string
-    isManual: boolean
-}
+import { Car, ParkingLot } from "src/types"
 
 const myCar: Car = {
     price: 12000,
@@ -29,10 +21,6 @@ const buyCar = (car: Car) => {
 }
 buyCar(myCar)
 console.log(myMoney)
-
-type ParkingSpace = Car | null
-
-type ParkingLot = [ParkingSpace, ParkingSpace, ParkingSpace, ParkingSpace]
 
 const parkingLot: ParkingLot = [null, null, myCar, null]
 
