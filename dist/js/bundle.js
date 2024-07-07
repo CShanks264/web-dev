@@ -1,0 +1,1 @@
+(()=>{"use strict";var e,o=12e3;o>=(e={price:12e3,make:"Subaru",model:"Impreza Sport",year:2012,color:"blue",isManual:!1}).price?(o-=e.price,console.log("You purchased the ".concat(e.make," ").concat(e.model,"!"))):console.log("you broke..."),console.log(o)})();

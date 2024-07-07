@@ -51,17 +51,17 @@ type Toaster = {
     toast: (bread: Bread) => Bread
 }
 
-const newToaster: Toaster = {
-    isFull: false,
-    content: null,
-    time: 10,
-    toast: (bread) => {
-        if (this.time > 20) {
-            bread.isBurnt = true
-        } else  if (this.time > 0) {
-            bread.isToasted = true
-        }
-        return bread
-    }
-}
+// const newToaster: Toaster = {
+//     isFull: false,
+//     content: null,
+//     time: 10,
+//     toast: (bread) => {
+//         if (this.time > 20) {
+//             bread.isBurnt = true
+//         } else  if (this.time > 0) {
+//             bread.isToasted = true
+//         }
+//         return bread
+//     }
+// }
 
